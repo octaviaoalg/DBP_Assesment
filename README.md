@@ -1,5 +1,5 @@
 # DBP_Assesment
- DBP technical assesment
+ DBP technical assessment
 
 NOTICE: This was tested on Windows 11.
 
@@ -10,8 +10,9 @@ NOTICE: This was tested on Windows 11.
 3. Open a CMD/Termial in the path of the project folder downloaded from GitHub 
 4. Execute `node --version` to check NodeJs is installed
 5. To prepare the test for run, execute `npm install`
-6. To make sure that the internal browsers are preapared execute `npx playwright install`
+6. To make sure that the internal browsers are prepared execute `npx playwright install`
 7. Tests can be run in 3 ways:
-   1. UI: `npx playwright test --ui`
-   2. Console: `npx playwright test `
-   3. Headed: `npx playwright test --headed`
+   1. UI: `npx playwright test --ui`, this will show test execution on real time (this won't generate a report).
+   Press right-green triangle or F5 execute tests.
+   2. Console: `npx playwright test`, after run is finished a report can be seen with `npx playwright show-report`.
+   3. Headed: `npx playwright test --headed`, after run is finished a report can be seen with `npx playwright show-report`.
